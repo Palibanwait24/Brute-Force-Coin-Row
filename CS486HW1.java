@@ -68,7 +68,7 @@ public class CS486HW1 {
 
     public static void traceBack(double array[][]) {
 
-        ArrayList<String> trace = new ArrayList<>();
+        ArrayList<String> trace = new ArrayList<>(); 
         int row = tablerow - 1;
         int col = tablecolumn - 1;
         trace.add("Row: " + (row) + " Col: " + (col) + "\n");
